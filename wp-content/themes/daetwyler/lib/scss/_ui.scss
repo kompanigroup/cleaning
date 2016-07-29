@@ -1,0 +1,41 @@
+// The comments form
+#respond {
+  clear: both;
+  margin-top: $bfz * 2;
+  padding-top: $bfz;
+  border-top: 1px dotted $gray;
+
+  h3 {
+	font-size: $bfz * 1.35;
+  }
+}
+#commentform {
+  textarea {
+    width: 100%;
+  }
+}
+
+input[type="submit"] {
+  color: #FFF;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: $bfz * .875;
+  text-align: center;
+  text-decoration: none;
+
+  border: medium none;
+  border-radius: 5px;
+  background: none repeat scroll 0% 0% #E97F00;
+
+  padding: $bfz * .5 $bfz*1.5;
+  outline: 0px none;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 1;
+  max-width: 100%;
+  visibility: visible;
+  backface-visibility: hidden;
+}

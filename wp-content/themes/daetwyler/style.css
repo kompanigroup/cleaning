@@ -1,0 +1,43 @@
+/*
+Theme Name: Daetwyler Industries
+Author: Ciprian Tepes
+Author URI: http://cipriantepes.ro
+Description: Custom WP theme based on Foundation CSS framework
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:
+
+This theme is copyrighted to Kompani Group
+*/
+
+li.menu-item-1302 ul {
+     margin-left: 20px;
+}
+
+.body__content {
+     font-size: 1rem !important ;
+}
+
+.flip-box-wrap .flip-box h3 {
+    font-size: 26px !important;
+}
+
+.widget_subpages .widget_subpages_current_page a {
+     background-color: #efefef !important;
+}
+
+.buttonattr button {
+     width: 170px;
+     text-align: left;
+}
+
+.buttonattr2 button {
+     width: 240px;
+     text-align: left;
+}
+
+.premiumflexo {
+     width: 400px;
+     font-size: 14px;
+}

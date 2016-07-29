@@ -1,0 +1,70 @@
+.body__header {
+  font-size: $bfz * .8175;
+  padding: 15px 0;
+
+  // Top Menu
+  .menu,
+  .menu-item {
+	display: inline;
+	margin: 0;
+	padding: 0;
+  }
+  .menu {
+	float: left;
+  }
+  .menu-item {
+	padding: 0 15px;
+	border-left: 0px;
+  }
+
+  .logo {
+	position: absolute;
+	z-index: 100;
+	right: 15px;
+	top: 0;
+
+	&:after {
+	  content: '';
+	  display: block;
+	  width: 24px;
+	  height: 13px;
+	  position: relative;
+	  top: 14px;
+	  left: 10px;
+	  float: right;
+	  background: url('../img/us-flag-xxsmall-compressor.png') no-repeat 0 0;
+	}
+  }
+
+  // The a
+  a {
+	color: $gray;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	&:focus {
+	  color: $orange;
+	}
+  }
+
+  // Search form
+  .search-form {
+	float: left;
+	position: relative;
+
+	.Defaults-search {
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+
+	  &:before {
+		color: $orange;
+		cursor: pointer;
+		display: block;
+		padding: 5px 7px;
+	  }
+	}
+  }
+
+}

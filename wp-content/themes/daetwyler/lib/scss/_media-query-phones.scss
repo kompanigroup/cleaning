@@ -1,0 +1,67 @@
+@media only screen and
+(max-width: 40em) {
+  // make the menu sandwich
+  body {
+	padding: 0;
+  }
+
+  section.top {
+	position: static;
+  }
+  .body__nav {
+
+  }
+
+  .body__header {
+	.logo {
+	  text-align: center;
+	  display: block;
+	  margin-bottom: 1em;
+	}
+	.menu {
+	  margin-left: 3em;
+	  float: left;
+	}
+	.search-form {
+	  float: right;
+	}
+  }
+
+  .body__content {
+	.content--sidebar,
+	.sidebar {
+	  float: none;
+	  clear: both;
+	  margin: 0;
+	  width: auto;
+	}
+	.wpb_row,
+	.wpb_column,
+	.upb_video_class {
+	  margin-bottom: 2em;
+	  clear: both;
+	}
+  }
+}
+@media only screen and
+(max-width: 40em) and
+(orientation: portrait) {
+  .body__header {
+	.menu {
+	  margin-left: 2.5em;
+	  margin-top: .2em;
+	}
+	.menu-item {
+	  padding: 0 4px;
+	}
+  }
+
+  // Breadcrumbs
+  .breadcrumbs {
+	.breadcrumbs--list {
+	  position: static;
+	  margin-bottom: -3em;
+	}
+  }
+
+}

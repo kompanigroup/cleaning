@@ -1,0 +1,40 @@
+.body__footer {
+  font-size: $bfz * .8175;
+  border-top: 1px solid #C8C8C8;
+  padding: 15px 0;
+
+  .copyright {
+	float: left;
+  }
+  .menu,
+  .menu-item {
+	display: inline;
+	margin: 0;
+	padding: 0;
+  }
+  .menu {
+	float: right;
+  }
+  .menu-item {
+	border-left: 1px solid $gray;
+	padding-left: 10px;
+	margin-left: 10px;
+
+	&:first-child {
+	  border: none;
+	}
+
+
+  }
+
+  a {
+	color: $gray;
+	text-decoration: none;
+
+	&:hover,
+	&:active,
+	&:focus {
+	  color: $orange;
+	}
+  }
+}

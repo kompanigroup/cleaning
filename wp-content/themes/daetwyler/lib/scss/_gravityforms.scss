@@ -1,0 +1,113 @@
+// Inputs
+.gform_wrapper .gfield input[type="text"],
+.gform_wrapper .gfield input[type="url"],
+.gform_wrapper .gfield input[type="email"],
+.gform_wrapper .gfield input[type="tel"],
+.gform_wrapper .gfield input[type="number"],
+.gform_wrapper .gfield input[type="password"],
+.gform_wrapper .gfield textarea,
+.gform_wrapper .gfield .ginput_container select {
+  padding: 10px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gform_wrapper .gform_body .ginput_complex input[type="text"],
+.gform_wrapper .gform_body .ginput_complex input[type="url"],
+.gform_wrapper .gform_body .ginput_complex input[type="email"],
+.gform_wrapper .gform_body .ginput_complex input[type="tel"],
+.gform_wrapper .gform_body .ginput_complex input[type="number"],
+.gform_wrapper .gform_body .ginput_complex input[type="password"],
+.gform_wrapper .gform_body .ginput_complex select {
+  width: 98.5% !important;
+}
+.gform_wrapper .gform_body .ginput_complex .name_last {
+  float: right;
+}
+
+.gform_wrapper .top_label .gfield .ginput_right input,
+.gform_wrapper .top_label .gfield .ginput_left input,
+.gform_wrapper .top_label .gfield .ginput_right select,
+.gform_wrapper .top_label .gfield .ginput_left select,
+.gform_wrapper .top_label .gfield.gf_left_half input,
+.gform_wrapper .top_label .gfield.gf_right_half input,
+.gform_wrapper .top_label .gfield.gf_right_half select,
+.gform_wrapper .top_label .gfield.gf_left_half select {
+  width: 98.5% !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gform_wrapper .top_label .ginput_complex .ginput_left {
+  width: 49%;
+}
+
+.gform_wrapper .gfield {
+  margin-bottom: $bfz;
+}
+
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="text"],
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="url"],
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="email"],
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="tel"],
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="number"],
+.gform_wrapper .gfield .ginput_complex .ginput_full input[type="password"] {
+  width: 99% !important;
+}
+
+.two-column_wrapper {
+  li.gsection {
+	display: none;
+  }
+  ul.gf_left_half {
+	width: 49%; float: left;
+  }
+  ul.gf_right_half {
+	width: 49%; float: right;
+  }
+
+  .gform_footer {
+	text-align: right;
+
+	/*.button {
+	  padding: 5px 10px;
+	}*/
+  }
+}
+
+// The widget - WP widget
+.gform_widget {
+  .two-column_wrapper {
+    ul.gf_left_half,
+    ul.gf_right_half {
+      width: auto;
+      float: none;
+    }
+  }
+  .gform_wrapper {
+    .top_label {
+      input.medium {
+        width: auto;
+      }
+    }
+  }
+
+  .themed {
+    background: #EFEFEF;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+
+    .gform_footer {
+      text-align: center;
+
+      .button {
+        background: #E97F00;
+        color: #fff;
+        border: none;
+        padding: 7px 15px;
+        box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+.body__content {
+  //font-size: $bfz * 1.125;
+  font-size: $bfz * 0.875;
+  padding: 50px 0;
+}
+
+.content--sidebar {
+  width: 72.5%;
+  margin: 0;
+}
+
+.body__sidebar {
+  width: 25%;
+  margin: 0;
+}
+
+/* Visual Composer */
+.ult-new-ib,
+.ubtn,
+.flip-box-wrap .ifb-front, .flip-box-wrap .ifb-back {
+  border-radius: 5px;
+}
+
+.flip-box-wrap .flip_link a {
+  font-size: 13px; font-weight: normal; border-radius: 4px;
+}
+
+/* Articles */
+.listposts {
+  h2 {
+	font-size: 1.5em;
+  }
+  li {
+	margin-bottom: $bfz * 3;
+  }
+}
+
+.article--list {
+  article {
+	margin-top: $bfz * 2;
+	margin-bottom: $bfz * 3;
+
+	.content--title {
+	  font-size: $bfz * 1.25;
+	  font-weight: bold;
+	}
+  }
+}
+
+/*
+ START: Single Article
+ */
+.article--title {
+  font-size: $bfz * 1.35;
+  font-weight: bold;
+}
+
+.article--meta {
+  font-size: $bfz * 0.75;
+  position: relative;
+  top: -10px;
+  margin-bottom: -15px;
+  display: block;
+  border-width: 1px 0;
+  border-style: dotted;
+  border-color: #ccc;
+  padding: 5px 0;
+}
+
+#comments {
+  font-size: $bfz * 1.125;
+  clear: both;
+  border-top: 1px dotted #ccc;
+  padding-top: 10px;
+}
+
+/*
+ END: Single Article
+ */
+
+// Pagination
+.body__content {
+  .pagination {
+	font-size: $bfz * 1.125;
+	text-align: center;
+
+	.page-numbers {
+	  padding: 2px 10px;
+	  background: #eee;
+	}
+  }
+}
+
+/*
+ START: Homepage
+ */
+.home .equal-height .ifb-face {
+  min-height: 270px;
+}
+
+.home .equal-height .flip-box-wrap .ifb-custom-height .ifb-face .ifb-desc-back {
+  max-height: none;
+}
+
+/*
+ END: Homepage
+ */
+
+/*
+ START: Careers / Jobs
+ */
+ul.job_listings li.no_job_listings_found.no_job_listings_found {
+  font-size: $bfz * 1.35;
+  padding: $bfz * .85;
+}
+
+.rp4wp-related-job_listing > ul li.job_listing a div.position, .rp4wp-related-job_listing > ul li.no_job_listings_found a div.position, ul.job_listings li.job_listing a div.position, ul.job_listings li.no_job_listings_found a div.position {
+  padding-left: 0;
+}
+
+.rp4wp-related-job_listing > ul li.job_listing a, .rp4wp-related-job_listing > ul li.no_job_listings_found a, ul.job_listings li.job_listing a, ul.job_listings li.no_job_listings_found a {
+  padding-left: 1em;
+}
+
+/*
+ END: Careers / Jobs
+ */
